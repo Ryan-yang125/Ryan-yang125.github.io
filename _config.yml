@@ -12,8 +12,8 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 future: true
 
 # SNS settings
-RSS: true
-# weibo_username: ryanyang
+RSS: false
+weibo_username: ryanyang
 zhihu_username: ryanyang125
 github_username: Ryan-yang125
 # twitter_username: ryanyang
@@ -87,14 +87,5 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
 # Friends
-friends: [
-    {
-      #     title: "Su",
-      #     href: "http://su.gallery/"
-      # },{
-      title: "foo",
-      href: "http://mida.re/",
-    },
-  ]
+
