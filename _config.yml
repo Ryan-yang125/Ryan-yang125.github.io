@@ -12,11 +12,11 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 future: true
 
 # SNS settings
-RSS: false
-weibo_username: ryanyang
-zhihu_username: ryanyang
+RSS: true
+# weibo_username: ryanyang
+zhihu_username: ryanyang125
 github_username: Ryan-yang125
-twitter_username: ryanyang
+# twitter_username: ryanyang
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: Ryan Young
+disqus_username: RyanYang125
 
 # Netease settings
 netease_comment: false
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-about-description: "Untermrad<br>故事讲述在一个世纪之前，共鸣回荡在一个世纪后"
 sidebar-avatar: /img/avatar-yr.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
