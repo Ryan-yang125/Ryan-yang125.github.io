@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How use github in vscode"
+title: "How to use github in vscode"
 subtitle: "如何在vscode中使用git和github"
 date: 2020-11-25
 author: "RyanYang"
