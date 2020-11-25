@@ -20,8 +20,6 @@ Javascript是一门*weird  language*。它在某些地方以某种方式运行�
 
 > 以下均以Chrome为标准
 
-废话不多说，直接开始正题。
-
 首先看一段代码
 
 ```javascript
@@ -79,5 +77,24 @@ heap用来分配对象，并把引用（地址）保存在栈中，stack用来�
 
 ![eventloop1](https://gitee.com/Ryan-yang125/picture-bed/raw/master/upic/eventloop1J4pHfS.png)
 
-在解析HTML时，每当遇到一个`<script>`标签，V8添加一个
+在解析HTML时，
 
+- 每当遇到一个`<script>`标签，V8添加一个*Macro task*在*exec stack*中，也可以理解为*main*函数。
+- 当遇到调用api(web api / third api)时，Chrome会有专门的进程执行代码，同时*main*函数继续往下执行。
+- 当前*main*函数执行完毕后，查看*micro task*中是否有微任务需要执行，如果有，执行完全部。
+- 检查是否需要*repaint*， 如果需要，首先执行*animate*,再重绘
+- 检查*marcro stack*中是否有任务需要执行（setTimeout, ajax的回调函数），如果有，取出一个执行
+- 重复循环
+
+因此，在*task queue*的优先级上，我们可以认为：
+
+*micro queue* > *repain queue* > *macro queue*
+
+这里留下了许多细节问题：
+
+- 为什么在*marcro queue*的基础上还需要*micro queue*？如何界定这两种任务？
+- 浏览器的api是如何执行的？
+- 浏览器具体是怎样解析HTML,CSS,JS的？
+- 浏览器是如何渲染的？
+
+之后会有一篇文章，完整的解释浏览器是如何从服务器发来的HTML文件解析、绘制、执行出整个网站的，并针对以上问题进一步深入分析。
