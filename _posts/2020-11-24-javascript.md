@@ -20,7 +20,7 @@ Null, undefined, boolean, number, string, symbol(es6),bigint(es6),object
 
 js以64位浮点数(IEEE754)的形式储存number
 
-![618px-IEEE_754_Double_Floating_Point_Format.svg](https://gitee.com/untermrad/picture-bed/raw/master/upic/618px-IEEE_754_Double_Floating_Point_Format.svghwfMa4Fn1Cjl.png)
+![618px-IEEE_754_Double_Floating_Point_Format.svg](https://gitee.com/Ryan-yang125/picture-bed/raw/master/upic/618px-IEEE_754_Double_Floating_Point_Format.svghwfMa4Fn1Cjl.png)
 
 转换规则如下：
 $$
@@ -53,7 +53,7 @@ Es6出现的bigint解决了number只能准确表示$[-(2^{53}-1),2^{53}-1]$之�
 
 当超过这个范围时，number会出现下面这种情况
 
-![截屏2020-11-18 22.15.20](https://gitee.com/untermrad/picture-bed/raw/master/upic/%E6%88%AA%E5%B1%8F2020-11-18%2022.15.204qBOzJyIt6jR.png)
+![截屏2020-11-18 22.15.20](https://gitee.com/Ryan-yang125/picture-bed/raw/master/upic/%E6%88%AA%E5%B1%8F2020-11-18%2022.15.204qBOzJyIt6jR.png)
 
 这是因为*fraction*只有52位，当超过这个范围时，低位会由于空间不足被舍去。
 
@@ -85,7 +85,7 @@ Two values were special:
 
 Then the engine's code for `typeof`:
 
-<img src="https://gitee.com/untermrad/picture-bed/raw/master/upic/%E6%88%AA%E5%B1%8F2020-11-18%2017.10.03fFQNqu.png" alt="截屏2020-11-18 17.10.03" style="zoom:50%;" />
+<img src="https://gitee.com/Ryan-yang125/picture-bed/raw/master/upic/%E6%88%AA%E5%B1%8F2020-11-18%2017.10.03fFQNqu.png" alt="截屏2020-11-18 17.10.03" style="zoom:50%;" />
 
 在检查（1）*undefined*的时候
 
