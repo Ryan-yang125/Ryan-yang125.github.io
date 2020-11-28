@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Untermrad<br>故事讲述在一个世纪之前，共鸣回荡在一个世纪后"
+sidebar-about-description: "Untermrad<br>揪心的玩笑和漫长的白日梦"
 sidebar-avatar: /img/avatar-yr.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
