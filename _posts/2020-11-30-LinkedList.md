@@ -5,7 +5,7 @@ subtitle: "链表以及相关LeetCode习题"
 date: 2020-11-30
 author: "RyanYang"
 header-img: "img/post-bg-default.jpg"
-tags: [数据结构]
+tags: [数据结构,链表,算法]
 ---
 
 > 数据结构篇，第一篇
