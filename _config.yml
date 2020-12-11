@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: ryanyang
+leetcode_username: Ryan-yang125
 zhihu_username: ryanyang125
 github_username: Ryan-yang125
 # twitter_username: ryanyang
