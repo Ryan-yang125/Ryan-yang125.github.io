@@ -12,12 +12,12 @@ tags: [JavaScript,V8,编译原理,词法,XMind]
 
 这是我目前为止对JavaScript编译原理（不考虑优化）的大致理解:
 
-![V8引擎](https://i.loli.net/2020/12/06/OyDR3ZLQtwNmgSE.png)
+![v8](img/post-v8.png)
 
 ### 词法作用域
 
 这其中我们着重关注词法作用域的规则，包括var/let的区别，提升，闭包等概念
 
-![变量声明与作用域](https://i.loli.net/2020/12/06/CE5buLBczAhFp3n.png)
+![field](img/post-field.png)
 
 至此，关于JavaScript词法部分的内容基本告一段落。
