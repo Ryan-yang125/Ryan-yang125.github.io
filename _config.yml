@@ -74,7 +74,7 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Untermrad<br>揪心的玩笑和漫长的白日梦"
+sidebar-about-description: "Untermrad<br>一半是海水，一半是焰火"
 sidebar-avatar: /img/avatar-yr.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
